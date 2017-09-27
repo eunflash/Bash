@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if ["$SHELL"="/bin/bash"]
+if [ "$SHELL" = "/bin/bash" ]
 then
     echo "your login shell is the bash(bourne again shell)"
 else
